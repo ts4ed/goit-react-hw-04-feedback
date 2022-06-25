@@ -18,4 +18,5 @@ export default function Feedback({ options, handFeedback }) {
 
 Feedback.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
+  handFeedback: PropTypes.func.isRequired,
 };
